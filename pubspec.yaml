@@ -1,0 +1,25 @@
+name: adminroom
+description: Admin tool for ChillRoom (Desktop-first)
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Navegación y layout
+  go_router: ^14.2.3
+  responsive_framework: ^1.5.1
+  # Iconos extra (opcional)
+  iconsax: ^0.0.8
+  supabase_flutter: ^2.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
